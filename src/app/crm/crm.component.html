@@ -1,0 +1,16 @@
+<section class="d-flex">
+
+    <app-sidebar [user]="user"></app-sidebar>
+
+    <section class="container">
+        <app-header [user]="user"></app-header>
+
+        <router-outlet></router-outlet>
+
+    </section>
+
+    <app-bar-contacts [users]="users"></app-bar-contacts>    
+
+</section>
+
+

@@ -1,0 +1,18 @@
+<section class="d-flex card-container m-b-2">
+    <div class="card" [ngClass]="item.class">
+        <span>{{item.items}}</span>
+    </div>
+
+    <div class="w-40 info">
+        <p>{{item.description}}</p>
+        <div class="description-icons">
+            <span class="material-icons">phone</span> {{item.phone}}
+        </div>
+        <div class="description-icons">
+            <span class="material-icons-outlined icon-white">message</span> 
+            <span>{{item.messages}}</span>
+            
+        </div>
+
+    </div>
+</section>

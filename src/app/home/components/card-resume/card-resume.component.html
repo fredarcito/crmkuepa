@@ -1,0 +1,8 @@
+
+<h2 class="m-1">Tu plan de hoy</h2>
+<section class="d-flex container-tasks">
+<div class="w-48" *ngFor="let task of tasks" >
+    <app-card-item-resume [item]="task"></app-card-item-resume>
+</div>
+</section>
+
